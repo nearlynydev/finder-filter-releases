@@ -8,7 +8,7 @@ Requires macOS 14 or later. Universal build for Apple silicon and Intel.
 
 Download the ZIP from [Releases](https://github.com/nearlynydev/finder-filter-releases/releases), extract it and install Finder Filter.app in Applications.
 
-The application is Developer ID signed. The current build is not notarized by Apple.
+Starting with 0.7.2, the application is Developer ID signed and notarized by Apple, with the ticket stapled to the app.
 
 Enable the Finder Sync extension and add Finder Filter through Finder's View → Customize Toolbar. Invoke it with the toolbar button or ⌘⇧F in Finder. Accessibility access is optional and enables copying the live expanded-folder state.
 

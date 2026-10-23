@@ -4,27 +4,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Finder Filter</title>
         <item>
-            <title>0.7.1</title>
-            <pubDate>Fri, 23 Oct 2026 14:33:58 +0300</pubDate>
-            <sparkle:version>16</sparkle:version>
-            <sparkle:shortVersionString>0.7.1</sparkle:shortVersionString>
+            <title>0.7.2</title>
+            <pubDate>Fri, 23 Oct 2026 17:20:03 +0300</pubDate>
+            <sparkle:version>17</sparkle:version>
+            <sparkle:shortVersionString>0.7.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Finder Filter 0.7.1
+            <description sparkle:format="markdown"><![CDATA[# Finder Filter 0.7.2
 
-Adds Sparkle 2.10.0 updates and “Check for Updates…” in the application and menu bar menus. All embedded update helpers are now signed with the application's Developer ID.
-
-Archives and the HTTPS appcast use Ed25519 signatures. Automatic checks follow user consent; automatic installation is disabled by default.
+- Apple-notarized release with the ticket stapled to the application.
+- Release preparation now requires a notarized, stapled app before creating the ZIP and signed Sparkle appcast.
 
 # Изменения
 
-Sparkle 2.10.0 и пункт «Проверить обновления…» в меню приложения и значка строки меню. Все встроенные компоненты обновления подписаны Developer ID приложения. Подписанная лента и архивы; автоматические проверки с согласия пользователя.
-
-The application is Developer ID signed. Apple notarization is not configured for this release.
+- Приложение прошло нотарификацию Apple; билет проверки прикреплён к приложению.
+- Новые архивы и подписанная лента Sparkle создаются только после успешной нотарификации и проверки билета.
 ]]></description>
-            <enclosure url="https://github.com/nearlynydev/finder-filter-releases/releases/download/v0.7.1/FinderFilter-0.7.1.zip" length="2345249" type="application/octet-stream" sparkle:edSignature="7zo4XX8vA43mbwFZ0wQn6cTcFGh6omd7AfTHahEoUX+Xq/MyExFNZJWZTGW7fVDD1qAnTVSSME3vFoO3CiMzCw=="></enclosure>
+            <enclosure url="https://github.com/nearlynydev/finder-filter-releases/releases/download/v0.7.2/FinderFilter-0.7.2.zip" length="2351064" type="application/octet-stream" sparkle:edSignature="dmovItXDPyI9XlTGal5G+cO+a7nfgLdt9mkeBhbRzHa5wlbKkhsq0phGVMXRdRySRXqDMpFIU1pevR3O+0xiCg=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 6h5SWQd3eMOKDZGPzy6xUl7LUhBmo0uDT+PBcucoGIsq8ChFR5Z52Y6hcDF/vdNOUuYgJYWFZjaNxpCoZKqvDA==
-length: 2022
+edSignature: ncIQ59Pnd6LOnSp/Hyvau3Tx40NP51i76rdUfJsUYDDAvYxvXBv8ASOkbeTpKvYHmZQFARrHPgWDfq1sxTSQDQ==
+length: 1710
 -->
