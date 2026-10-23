@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Finder Filter</title>
+        <item>
+            <title>0.7.0</title>
+            <pubDate>Fri, 23 Oct 2026 14:32:17 +0300</pubDate>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Finder Filter 0.7.0
+
+- Added “Check for Updates…” to the application menu and menu bar icon.
+- Added Sparkle 2.10.0 with signed update archives and a signed HTTPS appcast.
+- Update dialogs keep the app in the Dock until they close.
+- Automatic checks follow the user's Sparkle consent; automatic installation is off by default.
+
+# Finder Filter 0.7.0 — изменения
+
+- Пункт «Проверить обновления…» в меню приложения и значка строки меню.
+- Sparkle 2.10.0: подписанные архивы и подписанная лента обновлений по HTTPS.
+- Пока открыты окна обновления, приложение остаётся в Dock.
+- Автоматические проверки включаются с согласия пользователя; автоматическая установка по умолчанию отключена.
+]]></description>
+            <enclosure url="https://github.com/nearlynydev/finder-filter-releases/releases/download/v0.7.0/FinderFilter-0.7.0.zip" length="2297819" type="application/octet-stream" sparkle:edSignature="3vcBEOkxWIvi6+B1eDzqAGBj7X2rBcvOnBMq3fm0/JCz6vAEYzZ00+XoiB9Yl+8icY3yrth9e2/On/BOE8F1CA=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: A+cQcYsrwqUx18jsTgZj3H15QKQfh9kVTEHoe6OGNkFMsIjRY1MA9lOsUCHn0pUtJTzC1cmVHvGjfQ3fMrOnAg==
+length: 2096
+-->
